@@ -1,0 +1,23 @@
+{
+  "name": "betsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.1.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.11.2"
+  }
+}
